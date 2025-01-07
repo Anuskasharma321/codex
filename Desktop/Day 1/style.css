@@ -1,6 +1,73 @@
-div{
-    border: 2px solid red;
+/* p {
+    background-color: red;
+    width: fit-content;
+    color: white;
     padding: 10px;
-    margin: 10px;
-    background-color: antiquewhite;
+    margin: 20px;
 }
+.container {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+} */
+
+/* Flexbox css */
+
+/* .container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* column-gap: 10px; */
+    /* align-items: center;
+    align-content: center;
+    gap: 20px;
+    height: 100vh;
+    flex-wrap: wrap;
+    /* flex-direction: row-reverse; */
+/* } */
+/* .box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: blue;
+    border: 2px solid red;
+} */ 
+ body{
+    height: 150vh;
+ }
+
+.container{
+    border: 2px solid black;
+    margin: 50px;
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+}
+ 
+.box1 {
+    background-color: blueviolet;
+      position: relative;
+      /* top: 15x;
+    left: 15px;
+/* z-index: 1; */
+     
+
+
+}
+.box2 {
+    background-color: green;
+    position: relative;
+    z-index: 1;
+}
+.box3 {
+    background-color: peru;
+   
+}
+.box4 {
+    background-color: greenyellow;
+}
+
+
+
